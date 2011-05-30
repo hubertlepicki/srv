@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["hubert.lepicki@gmail.com", "hubert.lepicki@amberbit.com"]
   s.homepage    = ""
   s.summary     = %q{static files server}
-  s.description = %q{fire up with 'srv -p 4000' to serve current directory on port 4000}
+  s.description = %q{fire up with 'srv' to serve current directory on port 4000 (default), 'srv 5000' on port 5000}
 
   s.rubyforge_project = "srv"
 

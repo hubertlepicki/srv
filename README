@@ -1,0 +1,17 @@
+= srv
+
+Simple wrapper for Rack that serves static files from current directory.
+
+== Installation
+
+    $ gem install srv
+
+== Usage
+
+    $ cd /some/html/and/javascript/project && srv 6543
+
+Visit http://localhost:6543 to see directory listing.
+
+== Copyright
+
+2011 Hubert Łępicki <hubert.lepicki@amberbit.com>, licensed under the terms of MIT license.
